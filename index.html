@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tinto & Empanada</title>
+    <title>DeliEmpanadas</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -143,18 +143,14 @@
 </head>
 <body>
     <div id="age-verification" class="modal">
-        <div class="modal-content">
-            <h2>¿Eres mayor de 18 años?</h2>
-            <button onclick="verifyAge(true)">Sí</button>
-            <button onclick="verifyAge(false)">No</button>
-        </div>
+        
     </div>
 
        <img src="https://i.ibb.co/bM0Xd7sk/images-9.png" alt="Encabezado" style="width: 100%; height: auto;">
 
     <div class="container" id="store-content" style="display: none;">
         <header>
-            <h1 style="font-weight: bold; font-size: 38px;"> Tinto & Empanada </h1>
+            <h1 style="font-weight: bold; font-size: 38px;"> DeliEmpanadas </h1>
 
             
 
@@ -277,11 +273,12 @@
     <div class="dropdown-content">
         <ul>
             <li><img src="https://i.ibb.co/ymKyrJk2/k-L-ew9-FDZB4-JXRQo-Qzjy-Ypb-Ltgx-Hf-Vh-removebg-preview-1.png"> Empeanda de yuca - $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
-            <li><img src="https://i.ibb.co/dwPNB25Z/arepa-de-huevo-frito-comida-trad-removebg-preview.png"> arepa de huevo - $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
-            <li><img src="https://i.ibb.co/fdrVmRwB/papa-rellena-removebg-preview.png"> Papa Rellena- $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
             <li><img src="https://i.ibb.co/7dvhZByB/pngtree-mexican-empanadas-tradit.png"> Empanada Hawaianas - $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
             <li><img src="https://i.ibb.co/7dvhZByB/pngtree-mexican-empanadas-tradit.png"> Empanada Pollo Queso - $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
             <li><img src="https://i.ibb.co/7dvhZByB/pngtree-mexican-empanadas-tradit.png"> Empanada Arroz pollo- $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
+            <li><img src="https://i.ibb.co/dwPNB25Z/arepa-de-huevo-frito-comida-trad-removebg-preview.png"> arepa de huevo - $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
+            <li><img src="https://i.ibb.co/fdrVmRwB/papa-rellena-removebg-preview.png"> Papa Rellena- $3000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
+           
             <li><img src="https://i.ibb.co/QLv6ZhJ/a-hot-latte-coffee-cup-free-png.png" alt="a-hot-latte-coffee-cup-free-png"> cafe leche - $1500<button onclick="addToCart(10)">Agregar al Carrito</button></li>
             <li><img src="https://i.ibb.co/gMqNNTnB/c2bc4343251765-57e94c12d4176-removebg-preview.png"> Tinto- $1000<button onclick="addToCart(10)">Agregar al Carrito</button></li>
         
@@ -452,11 +449,12 @@
           
             // Empanadas
 { id: 1, name: 'Empeanda de yuca', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/ymKyrJk2/k-L-ew9-FDZB4-JXRQo-Qzjy-Ypb-Ltgx-Hf-Vh-removebg-preview-1.png' },
-{ id: 2, name: 'arepa de huevo ', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/dwPNB25Z/arepa-de-huevo-frito-comida-trad-removebg-preview.png' },
-{ id: 3, name: 'Papa Rellena', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/fdrVmRwB/papa-rellena-removebg-preview.png' },
 { id: 4, name: 'Empanada Hawaianas ', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/7dvhZByB/pngtree-mexican-empanadas-tradit.png' },
 { id: 5, name: 'Empanada Pollo Queso ', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/7dvhZByB/pngtree-mexican-empanadas-tradit.png' },
 { id: 6, name: 'Empanada Arroz pollo', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/7dvhZByB/pngtree-mexican-empanadas-tradit.png' },
+{ id: 2, name: 'arepa de huevo ', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/dwPNB25Z/arepa-de-huevo-frito-comida-trad-removebg-preview.png' },
+{ id: 3, name: 'Papa Rellena', price: 3000, category: 'Desayuno', image: 'https://i.ibb.co/fdrVmRwB/papa-rellena-removebg-preview.png' },
+
 { id: 7, name: 'cafe con leche', price: 1500, category: 'Desayuno', image: 'https://i.ibb.co/QLv6ZhJ/a-hot-latte-coffee-cup-free-png.png" alt="a-hot-latte-coffee-cup-free-png' },
 { id: 8, name: 'Tinto', price: 1000, category: 'Desayuno', image: 'https://i.ibb.co/gMqNNTnB/c2bc4343251765-57e94c12d4176-removebg-preview.png' },
 // Gaseosas
@@ -470,9 +468,7 @@
 { id: 16, name: 'Postobón Hipinto 1.5L', price: 3500, category: 'Gaseosas', image: 'https://i.ibb.co/gM5V29m/producto31.png' },
             
           // Rehidratantes
-{ id: 17, name: 'Electrolit Maracuyá 625ml', price: 7500, category: 'Rehidratantes', image: 'https://i.ibb.co/nD8kLqm/electrolit-removebg-preview-1.png' },
-{ id: 18, name: 'Electrolit Limón 625ml', price: 7500, category: 'Rehidratantes', image: 'https://i.ibb.co/nD8kLqm/electrolit-removebg-preview-1.png' },
-{ id: 19, name: 'Electrolit Naranja 625ml', price: 7500, category: 'Rehidratantes', image: 'https://i.ibb.co/nD8kLqm/electrolit-removebg-preview-1.png' },
+
 { id: 20, name: 'Bebida Energizante Vive 100 Zero x 380 ml', price: 2600, category: 'Rehidratantes', image: 'https://i.ibb.co/0Mfq5ws/160752-1600-auto-removebg-preview.png' },
 { id: 21, name: 'Bebida Hidratante Gatorade x 500 ml', price: 4300, category: 'Rehidratantes', image: 'https://i.ibb.co/gVQ9nkQ/shopping-removebg-preview-1.png' },
 { id: 22, name: 'Bebida Energizante Speed Max x 2200 ml', price: 2500, category: 'Rehidratantes', image: 'https://i.ibb.co/2k8Dv2h/159489-1600-auto-removebg-preview.png' },
@@ -491,13 +487,13 @@
 { id: 54, name: 'Galletas CHOKIS Chispas Chocolate', price: 2000, category: 'Confitería', image: 'https://i.ibb.co/4dB1pRZ/Galleta-Dulce-Clasica-CHOKIS-222-removebg-preview.png' },
 { id: 55, name: 'Ponqué Chocoramo Chocolate 65 G', price: 3000, category: 'Confitería', image: 'https://i.ibb.co/th662r4/946532-800-auto-removebg-preview.png' },
 { id: 56, name: 'Galletas Oreo Original 54 g', price: 2200, category: 'Confitería', image: 'https://i.ibb.co/1bPnSdz/galletas-oreo-original-54-g-2-removebg-preview.png' },
-{ id: 57, name: 'Chupeta BON BON BUM Surtido x24und', price: 11900, category: 'Confitería', image: 'https://i.ibb.co/Nj0rr6g/Bon-Bon-Bum-Surtido-165524-a-removebg-preview.png' },
+
 { id: 58, name: 'Chocolatina Jet Cookies & Cream 50g', price: 4000, category: 'Confitería', image: 'https://i.ibb.co/C6WzVDd/7702007061154-removebg-preview.png' },
 { id: 59, name: 'Jumbo Chocolatina Jumbo Jet Maní 90g', price: 6500, category: 'Confitería', image: 'https://i.ibb.co/M5LkrLp/Glina-Chocolate-Mani-JUMBO-90-gr-removebg-preview.png' },
-{ id: 60, name: 'Jet Chocolatina Jet Mini Surtida 6g x24 Unds', price: 13900, category: 'Confitería', image: 'https://i.ibb.co/7gywQkJ/602f589a2893b-removebg-preview.png' },
-{ id: 62, name: 'Millows Masmelos Cream Individual - Bolsa X 50 Und ', price: 10500, category: 'Confitería', image: 'https://i.ibb.co/bWSKwrm/D-NQ-NP-675701-MCO41709393544-05-removebg-preview.png' },
+
+
 { id: 62, name: 'Trident Value Menta 30,6g', price: 4900, category: 'Confitería', image: 'https://i.ibb.co/09Fpnxj/7506105606053-30-removebg-preview-1.png' },
-{ id: 63, name: 'Chocolatina Gol 28 G X3 Unds', price: 4990, category: 'Confitería', image: 'https://i.ibb.co/FzCs6HJ/167184-800-800-removebg-preview.png' },
+
 { id: 64, name: 'Chocolatina Jumbo Rosca 31 G', price: 3800, category: 'Confitería', image: 'https://i.ibb.co/Zd2nDKh/170709-800-450-removebg-preview.png' },
 { id: 65, name: 'Ponque Gala Tajada x 60 g Vainilla', price: 2500, category: 'Confitería', image: 'https://i.ibb.co/LZFbsgz/7702914597982-removebg-preview.png' }
 
@@ -697,6 +693,5 @@ ${includeDelivery ? `📍 Dirección: ${address}` : '🏪 Retiro en tienda'}
 
 </body>
 </html>
-
 
 
